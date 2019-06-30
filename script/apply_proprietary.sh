@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "--------------------"
 echo "Apply Multimedia and Graphics library" 
 
 export WORK=`pwd`

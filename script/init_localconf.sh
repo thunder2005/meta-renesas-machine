@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "--------------------"
 echo "Initialize local.conf from meta-renesas-machine/machine/conf" 
 
 export WORK=`pwd`

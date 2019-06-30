@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "--------------------"
 echo "Apply Patch file" 
 
 # For Yocto v2.23.1 
