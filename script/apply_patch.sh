@@ -1,7 +1,10 @@
+#!/bin/sh
+
+echo "Apply Patch file" 
 
 # For Yocto v2.23.1 
 export WORK=`pwd`
-cd $WORK/sources/meta-renesas
-export PATCH_DIR=meta-rcar-gen3/docs/sample/patch/patch-for-linaro-gcc
+export PATCH_DIR=machine/patch/patch-for-linaro-gcc
+cd $WORK/sources/meta-renesas-machine
 patch -p1 < ${PATCH_DIR}/0001-rcar-gen3-add-readme-for-building-with-Linaro-Gcc.patch
 unset PATCH_DIR
